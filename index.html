@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Personal AI Assistant</title>
+  <style>
+    body { background:#0d0d0d; color:#00ffcc; font-family:Arial; text-align:center; }
+    button { padding:15px; font-size:18px; margin:10px; }
+    #log { width:90%; height:200px; background:black; color:#00ffcc; padding:10px; overflow:auto; }
+  </style>
+</head>
+<body>
+
+<h1>🤖 My Personal AI Assistant</h1>
+
+<button onclick="startListening()">🎙️ Talk</button>
+<button onclick="runFrontendTask()">🖥️ Frontend Task</button>
+<button onclick="runBackendTask()">⚙️ Backend Task</button>
+
+<div id="log"></div>
+
+<script src="assistant.js"></script>
+</body>
+</html>
